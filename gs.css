@@ -34,7 +34,7 @@ body {
   border-left: 5px solid #cccccc;
 }
 
-/* Hover effect for directions (Part 5 requirement) */
+/* Hover effect for directions */
 .direction:hover {
   background-color: #222222;
   color: white;
@@ -59,7 +59,7 @@ body {
   color: #8a2f2f;
 }
 
-/* Add more characters if needed later
+/* (Add more if needed)
 .chorus { color: #006400; }
 .elsie { color: #8b008b; }
 .phoebe { color: #ff6600; }
@@ -82,6 +82,7 @@ table.cast td {
   text-align: left;
 }
 
+/* Header styling */
 table.cast thead {
   background-color: #e0e0e0;
   text-align: center;
@@ -92,14 +93,15 @@ table.cast tbody tr:nth-child(even) {
   background-color: #f7f7f7;
 }
 
-/* Hover effect for rows */
+/* Hover effect for table rows */
 table.cast tbody tr:hover {
   background-color: #d9edf7;
 }
 
 /* ===== Part 9: Hover effect on character names ===== */
 .name:hover {
-  text-shadow: 2px 2px 5px purple;
-  border: 1px solid purple;
-  padding: 2px;
+  text-shadow: 3px 3px 6px #8000ff;   /* shadow with color and blur */
+  border: 2px solid #8000ff;           /* border */
+  padding: 2px 4px;
+  border-radius: 6px;
 }
