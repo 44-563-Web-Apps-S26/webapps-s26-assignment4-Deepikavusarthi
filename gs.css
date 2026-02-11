@@ -1,4 +1,12 @@
-/* Required base styles */
+/* ===== Page Base ===== */
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Required base styles ===== */
+
+/* Speech text */
 .speech {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -6,41 +14,44 @@
   margin: 8px 0 16px 0;
 }
 
+/* Song text (indented + italic) */
 .song {
   font-family: Georgia, serif;
   font-size: 16px;
   color: black;
-  margin: 8px 0 16px 30px; /* indented */
+  margin: 8px 0 16px 30px;
   font-style: italic;
 }
 
+/* Stage directions */
 .direction {
   font-family: Verdana, sans-serif;
   font-size: 14px;
   color: black;
-  background-color: #f2f2f2; /* light background */
+  background-color: #f2f2f2;
   padding: 6px 10px;
   margin: 8px 0;
   border-left: 5px solid #cccccc;
   width: fit-content;
 }
 
-/* hover effect for directions */
+/* Hover effect for directions (required) */
 .direction:hover {
   background-color: #222222;
   color: white;
 }
 
-/* name = smallish heading */
+/* Character name (small heading) */
 .name {
   font-family: Tahoma, sans-serif;
   font-size: 14px;
+  font-weight: bold;
   color: black;
   margin: 16px 0 4px 0;
   letter-spacing: 1px;
 }
 
-/* Character styles (each must have a color) */
+/* ===== Character styles (each must have a color) ===== */
 .point {
   color: #1a4fb3;
 }
@@ -49,8 +60,42 @@
   color: #8a2f2f;
 }
 
-/* You can add more characters later like this:
+/* (Add more later if needed)
 .elsie { color: #...; }
 .phoebe { color: #...; }
-etc.
+.chorus { color: #...; }
 */
+
+/* ===== Table Styles (Part 7) ===== */
+
+table.cast {
+  border-collapse: collapse;
+  width: 85%;
+  margin-top: 25px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Table cells */
+table.cast th,
+table.cast td {
+  border: 2px solid #444;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+/* Header styling */
+table.cast thead {
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+/* Row stripes */
+table.cast tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+/* Hover effect on rows */
+table.cast tbody tr:hover {
+  background-color: #d9edf7;
+}
