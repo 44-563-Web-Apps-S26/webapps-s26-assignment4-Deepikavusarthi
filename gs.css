@@ -1,0 +1,56 @@
+/* Required base styles */
+.speech {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  margin: 8px 0 16px 0;
+}
+
+.song {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  color: black;
+  margin: 8px 0 16px 30px; /* indented */
+  font-style: italic;
+}
+
+.direction {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: #f2f2f2; /* light background */
+  padding: 6px 10px;
+  margin: 8px 0;
+  border-left: 5px solid #cccccc;
+  width: fit-content;
+}
+
+/* hover effect for directions */
+.direction:hover {
+  background-color: #222222;
+  color: white;
+}
+
+/* name = smallish heading */
+.name {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+  margin: 16px 0 4px 0;
+  letter-spacing: 1px;
+}
+
+/* Character styles (each must have a color) */
+.point {
+  color: #1a4fb3;
+}
+
+.wilfred {
+  color: #8a2f2f;
+}
+
+/* You can add more characters later like this:
+.elsie { color: #...; }
+.phoebe { color: #...; }
+etc.
+*/
