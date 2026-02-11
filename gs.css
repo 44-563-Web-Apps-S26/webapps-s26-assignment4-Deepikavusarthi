@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* ===== Required base styles ===== */
+/* ===== Required Base Styles ===== */
 
 /* Speech text */
 .speech {
@@ -14,7 +14,7 @@ body {
   margin: 8px 0 16px 0;
 }
 
-/* Song text (indented + italic) */
+/* Song text (indented and italic) */
 .song {
   font-family: Georgia, serif;
   font-size: 16px;
@@ -32,10 +32,9 @@ body {
   padding: 6px 10px;
   margin: 8px 0;
   border-left: 5px solid #cccccc;
-  width: fit-content;
 }
 
-/* Hover effect for directions (required) */
+/* Hover effect for directions (Part 5 requirement) */
 .direction:hover {
   background-color: #222222;
   color: white;
@@ -51,7 +50,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== Character styles (each must have a color) ===== */
+/* ===== Character Styles (each must have a color) ===== */
 .point {
   color: #1a4fb3;
 }
@@ -60,10 +59,10 @@ body {
   color: #8a2f2f;
 }
 
-/* (Add more later if needed)
-.elsie { color: #...; }
-.phoebe { color: #...; }
-.chorus { color: #...; }
+/* Add more characters if needed later
+.chorus { color: #006400; }
+.elsie { color: #8b008b; }
+.phoebe { color: #ff6600; }
 */
 
 /* ===== Table Styles (Part 7) ===== */
@@ -76,7 +75,6 @@ table.cast {
   font-size: 16px;
 }
 
-/* Table cells */
 table.cast th,
 table.cast td {
   border: 2px solid #444;
@@ -84,7 +82,6 @@ table.cast td {
   text-align: left;
 }
 
-/* Header styling */
 table.cast thead {
   background-color: #e0e0e0;
   text-align: center;
@@ -95,7 +92,14 @@ table.cast tbody tr:nth-child(even) {
   background-color: #f7f7f7;
 }
 
-/* Hover effect on rows */
+/* Hover effect for rows */
 table.cast tbody tr:hover {
   background-color: #d9edf7;
+}
+
+/* ===== Part 9: Hover effect on character names ===== */
+.name:hover {
+  text-shadow: 2px 2px 5px purple;
+  border: 1px solid purple;
+  padding: 2px;
 }
