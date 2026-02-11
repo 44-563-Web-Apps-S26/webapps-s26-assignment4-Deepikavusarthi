@@ -59,14 +59,7 @@ body {
   color: #8a2f2f;
 }
 
-/* (Add more if needed)
-.chorus { color: #006400; }
-.elsie { color: #8b008b; }
-.phoebe { color: #ff6600; }
-*/
-
 /* ===== Table Styles (Part 7) ===== */
-
 table.cast {
   border-collapse: collapse;
   width: 85%;
@@ -100,8 +93,8 @@ table.cast tbody tr:hover {
 
 /* ===== Part 9: Hover effect on character names ===== */
 .name:hover {
-  text-shadow: 3px 3px 6px #8000ff;   /* shadow with color and blur */
-  border: 2px solid #8000ff;           /* border */
+  text-shadow: 3px 3px 6px #8000ff; /* shadow with color + blur */
+  border: 2px solid #8000ff;        /* border */
   padding: 2px 4px;
   border-radius: 6px;
 }
